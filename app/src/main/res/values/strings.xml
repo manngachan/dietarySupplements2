@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Dietary Supplements</string>
+
+    <!-- Questions List-->
+    <string name="question_one">1. Unlike drugs, supplements are permitted to be marketed for the purpose of treating, diagnosing, preventing, or curing diseases?</string>
+    <string name="question_two">2. Which ingredient is not a dietary supplement?</string>
+    <string name="question_three">3. Do dietary supplement products need the U.S. Food and Drug Administration\'s (FDA\'s) approval before they are marketed?</string>
+    <string name="question_four">4. What are dietary supplements? Select all that apply.</string>
+    <string name="question_five">5. To whom should you consult before purchasing or taking any supplement?</string>
+
+    <!-- Question 1 answers -->
+    <string name="right">True</string>
+    <string name="wrong">False</string>  <!--Correct-->
+
+    <!-- Question 2 answers -->
+    <string name="ibuprofen">Ibuprofen</string> <!-- Correct -->
+    <string name="ginseng">Ginseng</string>
+    <string name="glucosamine">Glucosamine</string>
+
+    <!-- Question 3 answers -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string> <!-- Correct -->
+
+    <!-- Question 4 answers -->
+    <string name="vitamins">Vitamins</string><!-- Correct -->
+    <string name="minerals">Minerals</string><!-- Correct -->
+    <string name="fruits">Fruits</string>
+    <string name="herbs">Botanical and Herbs</string><!-- Correct -->
+
+    <!-- Question 5 answers -->
+    <string name="edit_text">e.g. profession</string>
+    <string name="edit_text_answer">doctor</string>
+
+    <!-- Buttons -->
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+
+    <!-- Toast Messages -->
+    <string name="submitted">Bravo! All Correct!</string>
+    <string name="score">You got :&#160;</string>
+    <string name="max_score">&#160;out of 5 Question Correct</string>
+
+</resources>

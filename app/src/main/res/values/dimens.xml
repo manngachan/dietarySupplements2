@@ -1,0 +1,29 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="marginLeft">16dp</dimen>
+    <dimen name="marginRight">16dp</dimen>
+    <dimen name="marginTop">16dp</dimen>
+    <dimen name="marginStart">16dp</dimen>
+    <dimen name="marginBottom">16dp</dimen>
+
+    <dimen name="question_padding">16dp</dimen>
+    <dimen name="view_height">1dp</dimen>
+
+    <dimen name="title_textSize">24sp</dimen>
+    <dimen name="default_textSize">20sp</dimen>
+    <dimen name="checkBox_textSize">18sp</dimen>
+
+    <dimen name="submit_marginEnd">8dp</dimen>
+    <dimen name="submit_marginLeft">16dp</dimen>
+    <dimen name="submit_marginRight">8dp</dimen>
+    <dimen name="submit_marginStart">16dp</dimen>
+
+    <dimen name="reset_marginEnd">16dp</dimen>
+    <dimen name="reset_marginLeft">8dp</dimen>
+    <dimen name="reset_marginRight">16dp</dimen>
+    <dimen name="reset_marginStart">8dp</dimen>
+
+</resources>

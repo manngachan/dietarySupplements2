@@ -1,0 +1,190 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="com.manngachan.dietarysupplements.MainActivity">
+
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/question_one" />
+
+
+            <RadioGroup
+                android:id="@+id/radio_group_one"
+                style="@style/RadioGroup">
+
+                <RadioButton
+                    android:id="@+id/true_radio_button"
+                    style="@style/RadioButton"
+                    android:onClick="onFirstQuestionClicked"
+                    android:text="@string/right" />
+
+                <RadioButton
+                    android:id="@+id/false_radio_button"
+                    style="@style/RadioButton"
+                    android:layout_marginBottom="@dimen/marginBottom"
+                    android:onClick="onFirstQuestionClicked"
+                    android:text="@string/wrong" />
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/question_two" />
+
+            <RadioGroup
+
+                android:id="@+id/radio_group_two"
+                style="@style/RadioGroup">
+
+
+                <RadioButton
+
+                    android:id="@+id/ibuprofen_radio_button"
+                    style="@style/RadioButton"
+                    android:onClick="onSecondQuestionClicked"
+                    android:text="@string/ibuprofen" />
+
+                <RadioButton
+                    android:id="@+id/ginseng_radio_button"
+                    style="@style/RadioButton"
+                    android:onClick="onSecondQuestionClicked"
+                    android:text="@string/ginseng" />
+
+                <RadioButton
+                    android:id="@+id/glucosamine_radio_button"
+                    style="@style/RadioButton"
+                    android:layout_marginBottom="@dimen/marginBottom"
+                    android:onClick="onSecondQuestionClicked"
+                    android:text="@string/glucosamine" />
+
+            </RadioGroup>
+
+
+            <TextView
+
+                style="@style/Question"
+                android:text="@string/question_three" />
+
+
+            <RadioGroup
+                android:id="@+id/radio_group_three"
+                style="@style/RadioGroup">
+
+                <RadioButton
+                    android:id="@+id/yes_radio_button"
+                    style="@style/RadioButton"
+                    android:onClick="onThirdQuestionClicked"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/no_radio_button"
+                    style="@style/RadioButton"
+                    android:layout_marginBottom="@dimen/marginBottom"
+                    android:onClick="onThirdQuestionClicked"
+                    android:text="@string/no" />
+
+            </RadioGroup>
+
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/question_four" />
+
+
+            <CheckBox
+                android:id="@+id/vitamins_check_box"
+                style="@style/CheckBox"
+                android:onClick="onCheckBoxClicked"
+                android:text="@string/vitamins" />
+
+
+            <CheckBox
+                android:id="@+id/minerals_check_box"
+                style="@style/CheckBox"
+                android:onClick="onCheckBoxClicked"
+                android:text="@string/minerals" />
+
+
+            <CheckBox
+                android:id="@+id/fruits_check_box"
+                style="@style/CheckBox"
+                android:onClick="onCheckBoxClicked"
+                android:text="@string/fruits" />
+
+
+            <CheckBox
+                android:id="@+id/herbs_check_box"
+                style="@style/CheckBox"
+                android:onClick="onCheckBoxClicked"
+                android:text="@string/herbs" />
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/question_five" />
+
+            <EditText
+                android:id="@+id/edit_text_answer"
+                style="@style/EditText"
+                android:hint="@string/edit_text"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/submit_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom"
+                android:layout_marginEnd="@dimen/submit_marginEnd"
+                android:layout_marginLeft="@dimen/submit_marginLeft"
+                android:layout_marginRight="@dimen/submit_marginRight"
+                android:layout_marginStart="@dimen/submit_marginStart"
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_weight="1"
+                android:onClick="submitScore"
+                android:text="@string/submit" />
+
+
+            <Button
+                android:id="@+id/reset_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom"
+                android:layout_marginEnd="@dimen/reset_marginEnd"
+                android:layout_marginLeft="@dimen/reset_marginLeft"
+                android:layout_marginRight="@dimen/reset_marginRight"
+                android:layout_marginStart="@dimen/reset_marginStart"
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_weight="1"
+                android:onClick="resetScore"
+                android:text="@string/reset" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
